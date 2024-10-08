@@ -1,0 +1,25 @@
+@startuml
+actor Utilisateur
+rectangle Annuaire {
+    Utilisateur --> (Consulter la liste des personnes)
+    Utilisateur --> (ajouter des personnes )
+    Utilisateur --> (rechercher une personne par son nom)
+     Utilisateur --> (ajouter une adresse email)
+
+
+}
+@enduml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
